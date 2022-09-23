@@ -17,7 +17,7 @@ For the forecasting, we implement a Bidirectional Long short-term Memory (Bi-LST
 
 - **Data Folder**: In this foler, we have the CQI data collected from real cars in a route in city Volos, Greece. There are two files, the train.csv which contains CQI data from 73 cars and used as training data. The other file is the test.txt which contains the CQI data from the experiment in our experimental environment, as described in the paper.
 
-- **Figures Folder**: In this filder, we have several important figures that are used by the notebook.
+- **Figures Folder**: In this folder, we have several important figures that are used by the notebook.
 
 - **Notebook Folder**: In this folder, we have the notebook that includes part of the utilized machine learning pipeline used to develop the Bi-LSTM model.
 
