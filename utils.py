@@ -202,7 +202,6 @@ def cross_validation_from_scratch(X, y, init_window=0, prediction_window=500):
     return X_splits, y_splits, X_pred_splits, y_pred_splits
 
 
-# function to predict
 def collect_predictions(model, X_test, y_test, n_steps, mean_batch, n_features, scaler, verbose=0):
     """
     This function utilizes the pretrained model and collects the predictions on 
@@ -246,6 +245,22 @@ def collect_predictions(model, X_test, y_test, n_steps, mean_batch, n_features, 
 
 
 def validate_model(epochs, X_train, y_train, X_test, y_test,init_w=40500,pred_w=500):
+    """
+    This function utilizes two more funtions:
+        - cross_validation_from_scratch()
+        - collect_predictions()
+    It is designed to evaluate the model using two steps:
+        1) Apply the Time-Series Cross Validation technique to the dataset
+        2) Train on the complete dataset and validate on the experimental data
+
+    Params:
+
+    - epochs: The epochs to train the model
+    - X_train, y_train: The samples to be used in the first step.
+    - X_test, y_test: The samples to be used in the seconds step.
+    - init_w: The offset of the time-series cross validation technique.
+    - pred_w: The length of the folds in the time-series cross validation technique.
+    """
     # Create Folds
     print("[INFO]: Split Dataset for Time-series CV")
     X_splits, y_splits, X_pred_splits, y_pred_splits = cross_validation_from_scratch(X_train,y_train,init_window=init_w, prediction_window=pred_w)
