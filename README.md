@@ -29,6 +29,6 @@ For the forecasting, we implement a Bidirectional Long short-term Memory (Bi-LST
 
 - **Figures Folder**: In this folder, we have several important figures that are used by the notebook.
 
-- **Notebook Folder**: In this folder, we have the notebook that includes part of the utilized machine learning pipeline used to develop the Bi-LSTM model in the paper.
+- **Notebook Folder**: In this folder, we have the notebook that includes part of the utilized machine learning pipeline used to develop the Bi-LSTM model in the paper. It is a reproducable notebook that is easily executed in Google Colab or locally. In the notebook, you can find useful functions and information on the pre-processing, deep learning model development, evaluation and extra stuff. 
 
 - **utils.py file**: This file includes the functions developed in the notebook for easier usage.
