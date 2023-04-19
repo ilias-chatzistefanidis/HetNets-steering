@@ -9,7 +9,7 @@
 
 
 ## Info
-**Please consider citing the dataset**. The data are published in the IEEE Dataport: https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks#
+**If you find the repo useful, please consider citing the dataset**. The data are published in the IEEE Dataport: https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks#
 
 This repo contains the data and code that are used to develop intelligent smart steering in heterogeneous ultra-dense beyond-5G networks. We use the following network topology:
 
