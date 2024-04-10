@@ -3,13 +3,19 @@
 ## Hint: To run the code we recomment the following steps:
 
 - Go to the **Notebook** folder of this repo.
-- Upload the Bi_LSTM.ipynb notebook on the Google Colab notebooks (https://colab.research.google.com/)
+- Upload the *Bi_LSTM.ipynb* notebook on the Google Colab notebooks (https://colab.research.google.com/)
 - (Optional) We recommend changing the runtime type to utilize a TPU or GPU Hardware accelerator (if available). This step will substantially decrease the training time of the model.
 - Just execute the notebook's cells serially. The notebook fetches the data directly from this repo with a URL link.
 
 
 ## Info
-**If you find the repo useful, please consider citing the dataset**. The data are published in the IEEE Dataport: https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks#
+
+**If you find the repo useful, please consider citing the following publications/datasets produced by this work:**. 
+
+* ML-based Traffic Steering for Heterogeneous Ultra-dense beyond-5G Networks (https://ieeexplore.ieee.org/abstract/document/10118923)
+* Which ML Model to Choose? Experimental Evaluation for a Beyond-5G Traffic Steering Case (https://ieeexplore.ieee.org/abstract/document/10279485)
+* The data are published in the IEEE Dataport: https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks#
+
 
 This repo contains the data and code that are used to develop intelligent smart steering in heterogeneous ultra-dense beyond-5G networks. We use the following network topology:
 
